@@ -1,0 +1,66 @@
+<html>
+
+    <link rel="stylesheet" href="style/main.css">
+    <script src="script/main.js"></script>
+
+    <!-- Header and Links -->
+
+    <div class="spanbox">
+        <h1> Emily Garrett </h1>
+        <p> Games programmer currently studying at Abertay University. </p>
+
+        <div class="nav-header">
+            <a href="about.md"> About </a>
+            <a href="projects.md"> Projects </a>
+        </div>
+
+    </div>
+
+    <!-- Project Scroll -->
+
+    <div class="spanbox">
+
+        <div class="carousel">
+
+            <!-- slides -->
+
+            <div class="carousel-slide">
+                <img src="images/red.png"> </img>
+                <div class="carousel-text">
+                    <h1> Red Project </h1>
+                    <p> Short Project Description 1 </p>
+                </div>
+            </div>
+            
+            <div class="carousel-slide" style="display: none">
+                <img src="images/blue.png"> </img>
+                <div class="carousel-text">
+                    <h1> Blue Project </h1>
+                    <p> Short Project Description 2 </p>
+                </div>
+            </div>
+
+            <div class="carousel-slide" style="display: none">
+                <img src="images/purple.png"> </img>
+                <div class="carousel-text">
+                    <h1> Purple Project </h1>
+                    <p> Short Project Description 3 </p>
+                </div>
+            </div>
+
+            <!-- navigation -->
+
+            <a class="carousel-prev" onclick="advanceSlide(-1)">&#10094;</a>
+            <a class="carousel-next" onclick="advanceSlide(1)">&#10095;</a>
+
+            <div style="text-align: center">
+                <span class="carousel-dot active" onclick="setSlide(0)"> </span>
+                <span class="carousel-dot" onclick="setSlide(1)"> </span>
+                <span class="carousel-dot" onclick="setSlide(2)"> </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</html>
