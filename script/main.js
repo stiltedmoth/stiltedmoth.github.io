@@ -1,5 +1,4 @@
 let carouselSlide = 0;
-displaySlide();
 
 function advanceSlide(n)
 {
