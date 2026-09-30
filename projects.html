@@ -1,0 +1,52 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="style/head.css">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+    </ul>
+    </header>
+
+    <body>
+        <link rel="stylesheet" href="style/projects.css">
+
+        <div class="spanbox" id="elementorum">
+            <div class="imgContainer">
+                <img src="images/elementorum.png">
+            </div>
+            <div class="textContainer">
+                <h1> Elementorum </h1>
+                <p> A 2.5D action game, where the player can create unique spells by combining elements from their environment. The project was made in the Unity engine, using WWise for audio and Jira for project management. </p>
+                <p> For this project I worked on both Gameplay and Graphics programming, rapidly prototyping as the concept for the game developed, then further developing game systems and working with our team's artists and Unity's shader pipeline to achieve the game's visual style. </p>
+                <p> Developed with Hydrabyte for Abertay's DES315 module - some of my teammates took the game on to Dare Academy, which you can find <a href="https://hydrabyte.itch.io/elementorum"> here!</a></p>
+            </div>
+        </div>
+
+        <div class="spanbox" id="grass">
+            <div class="imgContainer">
+                <img src="images/grass.png">
+            </div>
+            <div class="textContainer">
+                <h1> Instanced Grass </h1>
+                <p> A 3D environment constructed using DirectX11, making use of Instanced draw calls to performantly render a high quantity of grass. Features a HLSL lighting shader implementation supporting Point, Spot, and Directional lights, 
+                    terrain using a heightmap and dynamic plane tesselation, grass wind emulation using a geometry shader, and toggleable post-processing effects including a bloom compute shader. </p>
+            </div>
+        </div>
+
+        <div class="spanbox" id="brawl">
+            <div class="imgContainer">
+                <video src="images/CMP105Clip.webm" autoplay loop muted>
+            </div>
+            <div class="textContainer">
+                <h1> Multiplayer Brawler </h1>
+                <a href="https://github.com/stiltedmoth/cmp105-oddish-runcation/tree/master">Github Link</a> 
+                <p> A local multiplayer versus game developed in SFML, with a fast-paced gameplay loop where players alternate between fighting to the death and replacing and upgrading their abilties, putting together unique and powerful combinations. </p>
+                <p> The project was developed in two stages, a groupwork portion and an individual extension. I developed many aspects of the project, including multiplayer input handling, graphics and animation programming, and gameplay systems such as hit detection and response, 
+                    with my individual extension supplementing the project with additional gamemodes, a sandbox environment, and many more abilties. The custom ability animations system was implemented using function pointers for animation 
+                    events, to allow for streamlined development of new abilities. </p>
+            </div>
+        </div>
+
+    </body>
+</html>

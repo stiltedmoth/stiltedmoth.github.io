@@ -1,0 +1,52 @@
+body
+{
+    margin: 0px;
+    color: #eeeedd;
+    background-color: #aa2244;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spanbox 
+{
+    margin: 12px;
+    padding: 1px;
+    background-color: #111111;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+}
+
+.imgContainer
+{
+    height: 30%;
+    flex-grow: 1;
+    border-radius: 12px;
+    margin: 12px;
+    overflow: hidden;
+}
+
+.imgContainer img
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgContainer video
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textContainer
+{
+    margin-left: 4px;
+    margin-right: 8px;
+    flex-grow: 4;
+}
+
+.textContainer a
+{
+    color: #aa2244;
+}

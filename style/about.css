@@ -1,0 +1,50 @@
+body
+{
+    margin: 0px;
+    color: #eeeedd;
+    background-color: #aa2244;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.imgContainer
+{
+    width: 20%;
+    flex-grow: 1;
+    border-radius: 12px;
+    margin: 12px;
+    overflow: hidden;
+}
+
+.imgContainer img
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textContainer
+{
+    margin-left: 4px;
+    flex-grow: 4;
+}
+
+h2
+{
+    margin-bottom: 8px;
+}
+
+body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body ul li
+{
+    margin-bottom: 2px;
+}  

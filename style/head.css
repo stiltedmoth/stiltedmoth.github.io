@@ -1,16 +1,16 @@
-ul {
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #111111;
 }
 
-ul li {
+header ul li {
   float: left;
 }
 
-ul li a {
+header ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,8 +18,8 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
+header ul li a:hover {
+  background-color: #060606;
 }
 
 body {
